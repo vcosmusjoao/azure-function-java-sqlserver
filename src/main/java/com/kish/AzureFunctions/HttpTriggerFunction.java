@@ -36,7 +36,7 @@ public class HttpTriggerFunction {
         try
         {
         	     // Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-        	     String url ="jdbc:sqlserver://sqlserver-rm9999.database.windows.net:1433;database=bdemployee;user=admsql@sqlserver-rm9999;password=Function@fiap21;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
+        	     String url ="jdbc:sqlserver://sqlserver-rm88372.database.windows.net:1433;database=bdemployee;user=admsql@sqlserver-rm88372;password=Function@fiap21;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
                  Connection connect = DriverManager.getConnection(url);
                  String sql="INSERT INTO dbo.employee(id,ename,email,ssn) Values (?,?,?,?)";
                  PreparedStatement statement = connect.prepareStatement(sql);
