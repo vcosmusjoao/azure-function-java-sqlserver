@@ -16,7 +16,7 @@
         <azure.functions.maven.plugin.version>1.4.1</azure.functions.maven.plugin.version>
         <azure.functions.java.library.version>1.3.1</azure.functions.java.library.version>
         <!-- Nome único do Azure Functions -->
-        <functionAppName>employeeRM9999</functionAppName>
+        <functionAppName>employeeRM88372</functionAppName>
         <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
     </properties>
 
